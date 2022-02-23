@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Student {
+  int32 id = 1;
+  string name = 2;
+  int32 rollno = 3;
+}
+
+message Class {
+  repeated Student students = 1;
+}
